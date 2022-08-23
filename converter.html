@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <h1 class="title">BBverter</h1>
+    <div class="container">
+      <div class="converter center">
+        <div class="calc_input">
+          <select name="currency" class="first_currency_select">
+            <option value="RUB" selected>RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="CNY">CNY</option>
+            <option value="HKD">HKD</option>
+            <option value="UAH">UAH</option>
+          </select>
+          <input type="text" value="" class="currency_input" />
+        </div>
+        <div class="convert_button">
+          <button class="convert">↔</button>
+        </div>
+        <div class="calc_side">
+          <input type="text" value="" class="currency_output" />
+          <select name="currency" class="second_currency_select">
+            <option value="RUB">RUB</option>
+            <option value="USD" selected>USD</option>
+            <option value="EUR">EUR</option>
+            <option value="CNY">CNY</option>
+            <option value="HKD">HKD</option>
+            <option value="UAH">UAH</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="converter.js"></script>
+  </body>
+</html>
